@@ -1,0 +1,21 @@
+* {
+    font-family: Oswald;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-color: #66768a;
+    float: left;
+    width: 100%;
+}
+
+ul a {
+    color: white;
+    font-weight: 400;
+}
+
+nav * {
+    float: left;
+    width: 20%;
+}
