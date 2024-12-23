@@ -32,6 +32,10 @@ body {
     margin-top: -75px;
 }
 
+a:hover {
+    color:#58677a;
+}
+
 /******************************************
 /* NAV LINE
 /*******************************************/
@@ -64,6 +68,15 @@ nav button {
     border: #66768a 1px solid;
     color:#66768a;
     font-weight: 500
+}
+
+nav button:hover {
+    background-color:#161f2a;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color:#161f2a;
 }
 
 nav img {
@@ -139,7 +152,7 @@ main section p {
 
 .greyBackground {
     background-color: #dbdfe2;
-    height: 600px;
+    height: 650px;
 }
 
 .blueBlock {
@@ -190,4 +203,110 @@ h4 {
 .genSection button:hover {
     background-color:#66768a;
     cursor: pointer;
+}
+/******************************************
+/* VOLUNTEER SECTION
+/*******************************************/
+.volunteerSection {
+    text-align: center;
+    height: 400px;
+    margin: 80px 500px 20px 500px;
+}
+
+.volunteerSection h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.volunteerSection p {
+    font-size: 22px;
+    font-weight: 350;
+}
+
+.volunteerSection button {
+    background-color:white;
+    padding: 10px 40px;
+    border: 1px solid black;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.volunteerSection button:hover {
+    background-color:#66768a;
+    cursor: pointer;
+}
+
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+    background-color: #161f2a;
+    color: white;
+    height: 250px;
+}
+
+footer a {
+    color: white;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+h6 {
+    color: #58677a;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.footerLeft {
+    float: left;
+    width: 72%;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.secondOne {
+    margin-left: 30px;
+}
+
+.footerRight {
+    float: right;
+    width: 23%;
+}
+
+.address {
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.email {
+    font-weight: 600;
+}
+
+
+.IRS {
+    padding-left: 60px;
+    width: 100%;
+    background-color: #161f2a;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.IRS p {
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+.bold {
+    font-weight: 800;
+    font-size: 20px;
 }
